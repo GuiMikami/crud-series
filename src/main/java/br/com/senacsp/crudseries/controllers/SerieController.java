@@ -33,10 +33,11 @@ public class SerieController {
     }
 
     @PostMapping("/cadastrarSerie")
-    public ResponseEntity<String> cadastrarSerie(Serie serie) {
+    public ResponseEntity<String> cadastrarSerie(Serie serie, HttpServletResponse response) {
         try {
             System.out.println(serie);
             serieService.cadastrarSerie(serie);
+            response.sendRedirect("/listarSeries");
             return ResponseEntity.ok().body("Série cadastrada com sucesso!");
         } catch (Exception e) {
             return ResponseEntity.badRequest().body("Erro ao cadastrar a série: " + e.getMessage());
