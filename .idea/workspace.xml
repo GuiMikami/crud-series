@@ -5,14 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="75813995-77ce-4a0e-860c-e720aa0ffc28" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/data/db.mv.db" beforeDir="false" afterPath="$PROJECT_DIR$/data/db.mv.db" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/data/db.trace.db" beforeDir="false" afterPath="$PROJECT_DIR$/data/db.trace.db" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/br/com/senacsp/crudseries/CrudSeriesApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/senacsp/crudseries/CrudSeriesApplication.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/br/com/senacsp/crudseries/controllers/SerieController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/senacsp/crudseries/controllers/SerieController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/templates/listarSeries.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/listarSeries.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/br/com/senacsp/crudseries/CrudSeriesApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/br/com/senacsp/crudseries/CrudSeriesApplication.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/br/com/senacsp/crudseries/controllers/SerieController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/br/com/senacsp/crudseries/controllers/SerieController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/br/com/senacsp/crudseries/repositories/SerieRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/br/com/senacsp/crudseries/repositories/SerieRepository.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/templates/listarSeries.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/listarSeries.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -51,6 +50,11 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;configurable.group.appearance&quot;
   }
 }</component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\temp\GIT\crud-series\src\main\resources\static" />
+    </key>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">

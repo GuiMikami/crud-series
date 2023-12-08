@@ -47,6 +47,11 @@ public class SerieController {
     public String listarSeries(Model model) {
         List<Serie> series = serieRepository.findAll();
         model.addAttribute("series", series);
+
+        if (series.isEmpty()) {
+            model.addAttribute("semSeries", true);
+        }
+
         return "listarSeries";
     }
 }
