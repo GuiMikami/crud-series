@@ -48,8 +48,8 @@ public class SerieController {
         List<Serie> series = serieRepository.findAll();
         model.addAttribute("series", series);
 
-        if (series.isEmpty()) {
-            model.addAttribute("semSeries", true);
+       if (series.isEmpty()) {
+           model.addAttribute("mensagem", "Nenhuma série cadastrada!");
         }
 
         return "listarSeries";

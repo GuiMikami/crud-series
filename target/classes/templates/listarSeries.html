@@ -27,7 +27,7 @@
         </thead>
         <tbody>
         <tr th:each="serie : ${series}">
-            <th scope="row" th:if="${!semSeries}"></th>
+
             <td th:text="${serie.id}"></td>
             <td th:text="${serie.titulo}"></td>
             <td th:text="${serie.genero}"></td>
@@ -37,14 +37,14 @@
     </table>
 
 
-    <div class="alert alert-info" role="alert" hidden>
-        <p style="color: white;">Não há séries cadastradas.</p>
+    <div th:if="${mensagem}" class="alert alert-success alert-dismissible fade show" role="alert">
+        <span th:text="${mensagem}"></span>
     </div>
+
+
 </div>
 <script>
-    $(document).ready(function() {
 
-});
 </script>
 
 
